@@ -1,6 +1,6 @@
 function [max_start, max_end] = find_connected_line(image,...
     row_col_indentifier, index, max_gap, max_width, max_width_skips)
-%FIND_CONNECTED_LINE Return the endpoints of line such that it is roughly
+%FIND_CONNECTED_LINE Return the endpoints of a line such that it is roughly
 %connected, with gaps at most 'max_gap' pixels long, and which is at most 
 %'max_width' wide, except for 'max_gap' pixel stretches. This means that 
 %those regions of a line where its width exceed max_width are counted as 

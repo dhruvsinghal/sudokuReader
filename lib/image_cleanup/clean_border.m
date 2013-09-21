@@ -1,6 +1,6 @@
 function [ img ] = clean_border( img, ratio )
-%CLEAN_BORDER Set the 'ratio' times the height and width of the image 'img'
-%pixels at the four edges to zero.
+%CLEAN_BORDER Trims the border of an image by setting 'ratio' * height or
+%width number of pixels at the border to zero.
 
 n_width = floor(size(img, 2) * ratio);
 n_height = floor(size(img, 1) * ratio);

@@ -1,6 +1,6 @@
 function angle = get_alignment_angle( bimage )
-%FIX_ROTATION Return an angle such than on rotating bimage by this angle, 
-%the rectangular grid would align with the horizontal and vertical 
+%GET_ALIGNMENT_ANGLE Return an angle such than on rotating bimage by this 
+%angle, the rectangular grid would align with the horizontal and vertical 
 %directions of the reference plane.
 
 %Only consider the edges because thick borders may interfere with the angle
